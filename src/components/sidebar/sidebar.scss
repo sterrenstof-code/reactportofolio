@@ -1,0 +1,38 @@
+@import "../../global.scss";
+
+.sidebar {
+  right: auto;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  left: auto;
+  z-index: 10;
+  color: $lightgrey;
+
+  &__social {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    li {
+      overflow: hidden;
+      padding: 7.5px;
+      &:last-of-type {
+        margin-bottom: 20px;
+      }
+    }
+    &:after {
+      content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: $lightgrey;
+    }
+  }
+}

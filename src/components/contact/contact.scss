@@ -1,0 +1,12 @@
+@import "../../global.scss";
+
+.contact {
+  background-color: $mainColor;
+  padding: 50px;
+  height: calc(100vh - 70px) !important;
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items:flex-start;
+  
+}
